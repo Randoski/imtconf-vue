@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <div>
+      <div>Give.</div>
+      <div>Equity.</div>
+      <div>Give.</div>
+      <div>Community.</div>
+      <div>Give.</div>
+      <div>Inclusiveness.</div>
+      <div>Give.</div>
+      <div>Accountability.</div>
+    </div>
+
+    <div>
+      <div>Inclusiveness.</div>
+      <div>Give.</div>
+      <div>Accountability.</div>
+      <div>Give.</div>
+      <div>Equity.</div>
+      <div>Give.</div>
+      <div>Community.</div>
+      <div>Give.</div>
+    </div>
+  </div>
+</template>
