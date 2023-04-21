@@ -14,11 +14,13 @@
       <div
         class="hidden md:flex md:items-center md:gap-7 text-base font-medium leading-6"
       >
-        <router-link to="/about">About</router-link>
-        <router-link to="/">Speakers</router-link>
-        <router-link to="/">Organizers</router-link>
-        <router-link to="/">Volunteer</router-link>
-        <router-link to="/about">Sponsors</router-link>
+        <router-link to="/about" class="hover:text-purple">About</router-link>
+        <router-link to="/" class="hover:text-purple">Speakers</router-link>
+        <router-link to="/" class="hover:text-purple">Organizers</router-link>
+        <router-link to="/" class="hover:text-purple">Volunteer</router-link>
+        <router-link to="/about" class="hover:text-purple"
+          >Sponsors</router-link
+        >
 
         <router-link
           to="/about"
@@ -127,13 +129,19 @@ export default {
       this.showLoadingPage = false;
     }
 
-    // Hide scrollbar and disable scrolling
-    document.body.style.overflow = "hidden";
+    // Check if the link has been opened before
+    if (!localStorage.getItem("linkOpenedBefore")) {
+      // If not, hide scrollbar and disable scrolling
+      document.body.style.overflow = "hidden";
 
-    // Restore scrollbar and scrolling after 5 seconds
-    setTimeout(() => {
-      document.body.style.overflow = "";
-    }, 8000);
+      // Store flag indicating that the link has been opened before
+      localStorage.setItem("linkOpenedBefore", true);
+
+      // Restore scrollbar and scrolling after 5 seconds
+      setTimeout(() => {
+        document.body.style.overflow = "";
+      }, 8000);
+    }
   },
 };
 </script>
