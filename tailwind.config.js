@@ -17,6 +17,16 @@ module.exports = {
       'sec': ['"Maison Neue"', 'sans-serif'],
     },
 
+    fontSize: {
+      'forty': '40px',
+      '14': '14px',
+      '20': '20px',
+      '24': '24px',
+      '400': '400px',
+      '300': '300px',
+      '500': '500px',
+    },
+
     extend: {
       colors: {
         // Primary colors
