@@ -3,7 +3,7 @@
 
   <div v-else>
     <nav
-      class="w-full bg-white px-4 py-5 flex justify-between items-center fixed font-pry md:px-12"
+      class="w-full bg-white px-4 py-5 flex justify-between items-center fixed z-10 font-pry md:px-12"
     >
       <!-- Logo -->
       <router-link to="/">
