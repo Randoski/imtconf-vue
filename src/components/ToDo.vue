@@ -14,3 +14,5 @@ image in the user's browser so it doesn't have to be reloaded every time the use
 10. Add opacity to pastelBlue in Organizers.vue
 11. Make sure all links are routing properly
 12. Responsiveness for smaller screens
+13. Close mobile menu after clicking on each link
+14. Fix footer navbar links
