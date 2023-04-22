@@ -19,13 +19,13 @@
         Here’s what they’ve been working on:
       </h1>
       <!-- About speaker -->
-      <div class="flex gap-11 mt-4 overflow-x-auto scrollbar-hide">
+      <div class="flex gap-11 mt-4 overflow-x-auto scrollbar-hide z-1">
         <!-- Speaker 1 -->
         <div class="speakers relative">
           <img src="../assets/Images/Speaker1.png" alt="Speaker 1 image" />
           
           <div
-            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase p-2"
+            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase py-2 px-6"
           >
             <p>Tech</p>
           </div>
@@ -49,7 +49,7 @@
           <img src="../assets/Images/Speaker2.png" alt="Speaker 2 image" />
 
           <div
-            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-orange text-white uppercase p-2"
+            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-orange text-white uppercase py-2 px-6"
           >
             <p>Influencer</p>
           </div>
@@ -73,7 +73,7 @@
           <img src="../assets/Images/Speaker3.png" alt="Speaker 3 image" />
 
           <div
-            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase p-2"
+            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase py-2 px-6"
           >
             <p>Tech</p>
           </div>
@@ -97,7 +97,7 @@
           <img src="../assets/Images/Speaker2.png" alt="Speaker 2 image" />
 
           <div
-            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-orange text-white uppercase p-2"
+            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-orange text-white uppercase py-2 px-6"
           >
             <p>Influencer</p>
           </div>
@@ -121,7 +121,7 @@
           <img src="../assets/Images/Speaker3.png" alt="Speaker 3 image" />
           
           <div
-            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase p-2"
+            class="font-sec font-bold text-base text-14 absolute top-3 left-3 bg-purple text-white uppercase py-2 px-6"
           >
             <p>Tech</p>
           </div>

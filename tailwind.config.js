@@ -20,8 +20,13 @@ module.exports = {
     fontSize: {
       'forty': '40px',
       '14': '14px',
+      '16': '16px',
       '20': '20px',
       '24': '24px',
+      '30': '30px',
+      '32': '32px',
+      '42': '42px',
+      '60': '60px',
       '400': '400px',
       '300': '300px',
       '500': '500px',
@@ -44,6 +49,7 @@ module.exports = {
         // Shades of grey
         grey1: 'rgb(128, 128, 128)',
         grey2: 'rgb(51, 51, 51)',
+        grey2Opacity: 'rgb(51, 51, 51, 1)',
         grey3: 'rgb(242, 242, 242)',
         grey4: 'rgb(217, 217, 217)',
 

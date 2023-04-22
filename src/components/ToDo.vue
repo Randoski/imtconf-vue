@@ -8,4 +8,9 @@ image in the user's browser so it doesn't have to be reloaded every time the use
 4. Nav links should change color on click or scroll
 5. Add more breakpoints to make more responsive
 6. Make hamburger change on click
-7. 
+7. Fix font issues (Not loading on live)
+8. Write logic to switch organizers image and text every 5 seconds
+9. Make the form active and send alert on submit
+10. Add opacity to pastelBlue in Organizers.vue
+11. Make sure all links are routing properly
+12. Responsiveness for smaller screens
