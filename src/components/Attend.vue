@@ -2,7 +2,7 @@
   <section>
     <!-- Heading text -->
     <div>
-      <p>What is IMTConf?</p>
+      <p >What is IMTConf?</p>
       <h2>Why Attend :)</h2>
     </div>
 
