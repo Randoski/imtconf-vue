@@ -19,12 +19,14 @@ module.exports = {
 
     fontSize: {
       'forty': '40px',
+      '10': '10px',
       '12': '12px',
       '14': '14px',
       '16': '16px',
       '20': '20px',
-      '24': '24px',
       '30': '30px',
+      '24': '24px',
+      '25': '25px',
       '32': '32px',
       '42': '42px',
       '60': '60px',
@@ -53,10 +55,12 @@ module.exports = {
         grey2Opacity: 'rgb(51, 51, 51, 1)',
         grey3: 'rgb(242, 242, 242)',
         grey4: 'rgb(217, 217, 217)',
+        grey5: 'rgb(141, 141, 141)',
+
 
 
         // Pastel
-        pastelPurple: 'rgb(246, 237, 254)',
+        pastelPurple: '#F6EDFE',
         pastelBlue: 'rgb(234, 240, 242)',
       },
     },
