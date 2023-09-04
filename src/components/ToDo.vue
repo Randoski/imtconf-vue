@@ -18,4 +18,3 @@ image in the user's browser so it doesn't have to be reloaded every time the use
 14. Fix footer navbar links
 15. Add hover effect to footer navbar links
 16. Improve scroll behavior of Qualities.vue
-17. 

@@ -12,9 +12,7 @@
 
     <!-- Network and play -->
     <div class="mt-12 flex gap-2">
-      <div
-        class="flex justify-center items-center h-20 w-20 bg-gray-300 rounded-full"
-      >
+      <div class="bg-purple h-12 p-12 flex justify-center items-center rounded-full round-circle">
         <img src="../assets/Images/Network-play.png" alt="Network Icon" />
       </div>
       <div>
@@ -92,5 +90,9 @@
 <style>
 .bg {
   background: rgba(246, 239, 236, 1);
+}
+
+.round-circle {
+  border-radius: 70%;
 }
 </style>
