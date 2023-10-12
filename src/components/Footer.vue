@@ -1,32 +1,34 @@
 <template>
   <footer class="bg-softBrown bg-opacity-100 mt-16">
-    <div class="px-4 pt-10 pb-12">
+    <div class="px-4 pt-10 pb-12 md:flex">
       <!-- Reach out -->
-      <div class="flex justify-between">
-        <div class="leading-10">
-          <p class="font-sec uppercase font-medium text-12 tracking-widest">
-            Want to know more?
-          </p>
-          <div class="flex font-sec font-bold text-24 text-purple underline gap-2">
-            <a href="#">Reach out</a>
-            <img
-              src="../assets/Images/arrow-link-purple.svg"
-              class="w-5"
-              alt="Link image"
-            />
+      <div>
+        <div class="flex justify-between">
+          <div class="leading-10">
+            <p class="font-sec uppercase font-medium text-12 tracking-widest">
+              Want to know more?
+            </p>
+            <div class="flex font-sec font-bold text-24 text-purple underline gap-2">
+              <a href="#">Reach out</a>
+              <img
+                src="../assets/Images/arrow-link-purple.svg"
+                class="w-5"
+                alt="Link image"
+              />
+            </div>
           </div>
+
+          <!-- Back to top -->
+          <a href="#"
+            ><img
+              src="../assets/Images/back-to-top.png"
+              class="pt-3"
+              alt="Back top top image"
+          /></a>
         </div>
 
-        <!-- Back to top -->
-        <a href="#"
-          ><img
-            src="../assets/Images/back-to-top.png"
-            class="pt-3"
-            alt="Back top top image"
-        /></a>
-
         <!-- Second logo -->
-        <div class="hidden">
+        <div class="hidden md:block">
           <img src="../assets/Images/Logo2.svg" alt="Second logo" class="animate-spin" />
         </div>
       </div>
@@ -67,7 +69,7 @@
         <img
           src="../assets/Images/Logo2.svg"
           alt="Second logo"
-          class="mt-10 mb-8 animate-spin"
+          class="mt-10 mb-8 animate-spin md:hidden"
         />
 
         <!-- Socials logo -->

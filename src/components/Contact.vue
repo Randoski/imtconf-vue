@@ -1,10 +1,10 @@
 <template>
-  <section class="my-16 px-4">
-    <div class="text-blue border border-blue p-4">
+  <section class="my-16 px-4 md:flex md:px-12">
+    <div class="text-blue border border-blue p-4 md:w-1/2">
       <h2 class="uppercase font-sec text-16 font-bold">Contact Us</h2>
 
       <!-- Form -->
-      <form class="font-pry mt-4">
+      <form class="font-pry mt-4 md:w-full">
         <!-- Name -->
         <input
           class="border border-blue w-full mb-2.5 py-2 px-3 outline-none"
@@ -25,7 +25,6 @@
         />
         <p></p>
 
-        <!-- How would you like to assist us? -->
         <!-- How would you like to assist us? -->
         <div class="relative">
           <select
@@ -80,7 +79,7 @@
     </div>
 
     <!-- FAQ -->
-    <div class="bg-blue py-8 px-4 text-white font-pry">
+    <div class="bg-blue py-8 px-4 text-white font-pry md:w-1/2">
       <h2 class="uppercase font-bold text-16">Frequently Asked Questions</h2>
 
       <!-- Questions Loop -->

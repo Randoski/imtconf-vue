@@ -9,8 +9,12 @@
       </p>
     </div>
 
-    <div class="pt-4 mt-12 border-2" :style="{ borderColor: currentBgColorClass }">
-      <div class="font-pry text-center py-12">
+    <div
+      class="pt-4 mt-12 border-2 md:flex md:pt-0"
+      :style="{ borderColor: currentBgColorClass }"
+    >
+      <!-- We are ... -->
+      <div class="font-pry text-center py-12 md:w-1/2">
         <p
           class="font-bold text-base uppercase leading-6 tracking-widest mb-16"
           :class="currentColorClass"
@@ -18,19 +22,19 @@
           Human-centered Community
         </p>
         <h2 class="font-normal text-forty leading-6 pt-5 pb-4">We are</h2>
-        <h2
-          class="font-bold text-forty leading-6 underline"
-          :class="currentColorClass"
-        >
+        <h2 class="font-bold text-forty leading-6 underline" :class="currentColorClass">
           {{ currentTitle }}
         </h2>
       </div>
 
-      <div class="py-4 mt-12" :style="{ backgroundColor: currentBgColorClass }">
+      <div
+        class="py-4 mt-12 md:w-1/2 md:mt-0"
+        :style="{ backgroundColor: currentBgColorClass }"
+      >
         <p class="font-sec font-bold text-xl leading-9 px-4 text-white">
-          A community of Influencers and Tech Personalities forging a stage
-          where the continent’s brightest minds meet new partners, and the
-          sharpest innovators to share their visions.
+          A community of Influencers and Tech Personalities forging a stage where the
+          continent’s brightest minds meet new partners, and the sharpest innovators to
+          share their visions.
         </p>
 
         <!-- Logo and Icons -->
@@ -137,9 +141,7 @@ export default {
       return this.bgColorClasses[this.colorIndex];
     },
     borderColorClass() {
-      return this.colorClasses[
-        (this.colorIndex + 1) % this.colorClasses.length
-      ];
+      return this.colorClasses[(this.colorIndex + 1) % this.colorClasses.length];
     },
   },
   created() {
