@@ -26,19 +26,30 @@
         <p></p>
 
         <!-- How would you like to assist us? -->
-        <select
-          class="border border-blue bg-white w-full mb-2.5 py-2 px-3 outline-none"
-          name="assistance"
-          id="assistance"
-          form="contact-form"
-        >
-          <option class="font-pry">How would you like to assist us?</option>
-          <option class="font-pry">I want to volunteer</option>
-          <option class="font-pry">I want to Sponsor</option>
-          <option class="font-pry">I want to make Suggestions</option>
-          <option class="font-pry">I want to make enquires</option>
-          <option class="font-pry">Something else</option>
-        </select>
+        <div class="relative">
+          <select
+            class="border border-blue bg-white w-full mb-2.5 py-2 px-3 outline-none appearance-none"
+            name="assistance"
+            id="assistance"
+            form="contact-form"
+          >
+            <option disabled selected value="">How would you like to assist us?</option>
+            <option value="volunteer">I want to volunteer</option>
+            <option value="sponsor">I want to Sponsor</option>
+            <option value="suggestions">I want to make Suggestions</option>
+            <option value="enquiries">I want to make enquires</option>
+            <option value="other">Something else</option>
+          </select>
+          <div
+            class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
+          >
+            <img
+              class="h-4"
+              src="../assets/Images/arrow-link-blue.svg"
+              alt="Link image"
+            />
+          </div>
+        </div>
         <p></p>
 
         <!-- Message -->
@@ -73,10 +84,10 @@
       <div class="mt-4">
         <div class="faq-item" v-for="(question, index) in faqQuestions" :key="index">
           <div
-            class="flex items-center cursor-pointer justify-between"
+            class="flex justify-between items-center cursor-pointer mt-6"
             @click="toggleAnswer(index)"
           >
-            <p class="font-bold mt-6">{{ question.question }}</p>
+            <p class="font-bold">{{ question.question }}</p>
             <div>
               <img
                 :class="{ 'rotate-180': showAnswer === index }"

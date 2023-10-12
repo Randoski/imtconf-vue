@@ -28,50 +28,22 @@
           <p class="text-30 font-medium">Product Designer</p>
         </div>
         <p class="text-14 font-medium extra">
-          Andikan is one of the amazing kreatives of KND. He has over 4 years of
-          design experience and is currently creating design solutions at
-          xxxxxxxxx. Want to know more about Andikan? Follow his socials!
+          Andikan is one of the amazing kreatives of KND. He has over 4 years of design
+          experience and is currently creating design solutions at xxxxxxxxx. Want to know
+          more about Andikan? Follow his socials!
         </p>
       </div>
 
       <!-- Other organizers -->
       <div class="flex mt-4 gap-2 overflow-x-scroll">
         <!-- Other organizers Image -->
-        <img
-          src="../assets/Images/Organizer2.svg"
-          alt="Organizer 2"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer3.svg"
-          alt="Organizer 3"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer4.svg"
-          alt="Organizer 4"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer5.svg"
-          alt="Organizer 5"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer6.svg"
-          alt="Organizer 6"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer7.svg"
-          alt="Organizer 7"
-          class="w-15"
-        />
-        <img
-          src="../assets/Images/Organizer7.svg"
-          alt="Organizer 7"
-          class="w-15"
-        />
+        <img src="../assets/Images/Organizer2.svg" alt="Organizer 2" class="w-15" />
+        <img src="../assets/Images/Organizer3.svg" alt="Organizer 3" class="w-15" />
+        <img src="../assets/Images/Organizer4.svg" alt="Organizer 4" class="w-15" />
+        <img src="../assets/Images/Organizer5.svg" alt="Organizer 5" class="w-15" />
+        <img src="../assets/Images/Organizer6.svg" alt="Organizer 6" class="w-15" />
+        <img src="../assets/Images/Organizer7.svg" alt="Organizer 7" class="w-15" />
+        <img src="../assets/Images/Organizer7.svg" alt="Organizer 7" class="w-15" />
       </div>
     </div>
   </div>
@@ -108,9 +80,9 @@
           <p>Product Designer</p>
         </div>
         <p>
-          Andikan is one of the amazing kreatives of KND. He has over 4 years of
-          design experience and is currently creating design solutions at
-          xxxxxxxxx. Want to know more about Andikan? Follow his socials!
+          Andikan is one of the amazing kreatives of KND. He has over 4 years of design
+          experience and is currently creating design solutions at xxxxxxxxx. Want to know
+          more about Andikan? Follow his socials!
         </p>
 
         <!-- Other organizers -->
@@ -146,8 +118,8 @@
   color: transparent;
 }
 
- .overflow-x-scroll::-webkit-scrollbar-thumb {
-    background-color: transparent;
-    border-radius: 5px;
-  }
+.overflow-x-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 5px;
+}
 </style>
