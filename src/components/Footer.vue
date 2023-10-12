@@ -7,9 +7,7 @@
           <p class="font-sec uppercase font-medium text-12 tracking-widest">
             Want to know more?
           </p>
-          <div
-            class="flex font-sec font-bold text-24 text-purple underline gap-2"
-          >
+          <div class="flex font-sec font-bold text-24 text-purple underline gap-2">
             <a href="#">Reach out</a>
             <img
               src="../assets/Images/arrow-link-purple.svg"
@@ -57,22 +55,16 @@
         <div>
           <h2 class="font-sec font-bold text-24">A Product of KND</h2>
           <a href="#" class="hidden"
-            ><img
-              src="../assets/Images/back-to-top.png"
-              alt="Back top top image"
+            ><img src="../assets/Images/back-to-top.png" alt="Back top top image"
           /></a>
         </div>
-        <p class="mt-6 font-medium text-14">
-          Kreatives Next Door is a collective of digital creatives building
-          solutions for the community
+        <p class="mt-6 font-medium font-pry text-14">
+          Kreatives Next Door is a collective of digital creatives building solutions for
+          the community
         </p>
 
         <!-- Second logo -->
-        <img
-          src="../assets/Images/Logo2.svg"
-          alt="Second logo"
-          class="mt-10 mb-8"
-        />
+        <img src="../assets/Images/Logo2.svg" alt="Second logo" class="mt-10 mb-8" />
 
         <!-- Socials logo -->
         <div>

@@ -3,7 +3,7 @@
 
   <div v-else>
     <nav
-      class="w-full bg-white px-4 py-5 flex justify-between items-center fixed z-10 font-pry md:px-12"
+      class="w-full bg-white px-4 py-8 flex justify-between items-center fixed z-10 font-pry md:px-12"
     >
       <!-- Logo -->
       <router-link to="/">
@@ -18,20 +18,14 @@
         <router-link to="/" class="hover:text-purple">Speakers</router-link>
         <router-link to="/" class="hover:text-purple">Organizers</router-link>
         <router-link to="/" class="hover:text-purple">Volunteer</router-link>
-        <router-link to="/about" class="hover:text-purple"
-          >Sponsors</router-link
-        >
+        <router-link to="/about" class="hover:text-purple">Sponsors</router-link>
 
         <router-link
           to="/about"
           class="flex items-center justify-center text-purple uppercase underline"
         >
           <span class="mr-2">Buy tickets</span>
-          <img
-            src="./assets/Images/arrow-link-purple.svg"
-            alt="Arrow"
-            class="w-3.5"
-          />
+          <img src="./assets/Images/arrow-link-purple.svg" alt="Arrow" class="w-3.5" />
         </router-link>
       </div>
 
@@ -40,16 +34,11 @@
       <div class="md:hidden flex items-center">
         <!-- Buy Ticket link -->
         <router-link to="/about" class="flex items-center mr-7 md:block">
-          <span
-            class="font-bold font-pry text-xs uppercase text-purple mr-2 mt-0.5"
+          <span class="font-bold font-pry text-xs uppercase text-purple mr-2 mt-0.5"
             >Buy tickets</span
           >
           <div>
-            <img
-              src="./assets/Images/arrow-link-purple.svg"
-              class="w-2.5"
-              alt="Arrow"
-            />
+            <img src="./assets/Images/arrow-link-purple.svg" class="w-2.5" alt="Arrow" />
           </div>
         </router-link>
 
@@ -66,16 +55,15 @@
         class="flex flex-col absolute top-9 left-0 z-10 w-full md:w-1/2 bg-softBrown text-black hover:purple px-5 py-7 gap-6 mobile-menu mt-5 uppercase tracking-tighter font-medium text-sm leading-120"
         :class="{ hidden: !showMobileMenu }"
       >
-        <router-link to="/about">About</router-link>
-        <router-link to="/">Speakers</router-link>
-        <router-link to="/">Organizers</router-link>
-        <router-link to="/">Volunteer</router-link>
-        <router-link to="/about">Sponsors</router-link>
+        <router-link to="/about" @click="toggle">About</router-link>
+        <router-link to="/" @click="toggle">Speakers</router-link>
+        <router-link to="/" @click="toggle">Organizers</router-link>
+        <router-link to="/" @click="toggle">Volunteer</router-link>
+        <router-link to="/about" @click="toggle">Sponsors</router-link>
 
         <div class="flex justify-between items-center space-between mt-2">
           <router-link to="/about" class="flex items-center">
-            <span
-              class="font-bold font-pry text-xs uppercase text-purple mr-2 mt-0.5"
+            <span class="font-bold font-pry text-xs uppercase text-purple mr-2 mt-0.5"
               >Buy tickets</span
             >
             <div>
@@ -88,7 +76,7 @@
           </router-link>
 
           <div
-            class="text-deepBrown font-bold text-xs leading-7"
+            class="text-deepBrown font-bold text-xs leading-7 cursor-pointer"
             @click="toggle"
           >
             Close

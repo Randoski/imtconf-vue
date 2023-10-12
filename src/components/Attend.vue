@@ -2,29 +2,27 @@
   <section class="px-4 bg py-6 font-pry">
     <!-- Heading text -->
     <div>
-      <p class="font-medium text-16 leading-5 tracking-wide">
-        What is IMTConf?
-      </p>
-      <h2 class="font-bold text-32 leading-5 tracking-wide mt-3">
-        Why Attend :)
-      </h2>
+      <p class="font-medium text-16 leading-5 tracking-wide">What is IMTConf?</p>
+      <h2 class="font-bold text-32 leading-5 tracking-wide mt-3">Why Attend :)</h2>
     </div>
 
     <!-- Network and play -->
-    <div class="mt-12 flex gap-2">
-      <div class="bg-purple h-12 p-12 flex justify-center items-center rounded-full round-circle">
-        <img src="../assets/Images/Network-play.png" alt="Network Icon" />
+    <div class="flex gap-4 my-12">
+      <div>
+        <div
+          class="background h-16 w-16 p-2 flex justify-center items-center rounded-full round-circle"
+        >
+          <img class="w-6" src="../assets/Images/Network-play.png" alt="Network Icon" />
+        </div>
       </div>
       <div>
         <h1 class="font-bold text-25">Network & Play</h1>
         <p class="mt-2 font-medium text-16 leading-7 tracking-wide">
-          People say creatives don’t know how to have fun and we’re always stuck
-          to our screens, Come show them that we can party hard.
+          People say creatives don’t know how to have fun and we’re always stuck to our
+          screens, Come show them that we can party hard.
         </p>
-        <div class="flex mt-2.5">
-          <a href="#" class="font-normal text-20 text-purple underline"
-            >RSVP Now</a
-          >
+        <div class="flex mt-4">
+          <a href="#" class="font-normal text-20 text-purple underline">RSVP Now</a>
           <img
             src="../assets/Images/arrow-link-purple.svg"
             class="ml-2 w-4"
@@ -35,23 +33,24 @@
     </div>
 
     <!-- Showcase -->
-    <div class="flex gap-2 my-12">
+    <div class="flex gap-4 my-12">
       <div>
-        <img
-          src="../assets/Images/search-favoriteshowcase.svg"
-          alt="Showcase Icon"
-        />
+        <div class="background w-14 h-14 rounded-full flex items-center justify-center">
+          <img
+            class="w-5"
+            src="../assets/Images/search-favoriteshowcase.svg"
+            alt="Showcase Icon"
+          />
+        </div>
       </div>
       <div>
         <h1 class="font-bold text-25">Showcase</h1>
         <p class="mt-2 font-medium text-16 leading-7 tracking-wide">
-          Have any project you want to show and feel like you need a place to
-          show them off? Then IMTConf is for you. Come show us what you got!
+          Have any project you want to show and feel like you need a place to show them
+          off? Then IMTConf is for you. Come show us what you got!
         </p>
-        <div class="flex mt-2.5">
-          <a href="#" class="font-normal text-20 text-purple underline"
-            >RSVP Now</a
-          >
+        <div class="flex mt-4">
+          <a href="#" class="font-normal text-20 text-purple underline">RSVP Now</a>
           <img
             src="../assets/Images/arrow-link-purple.svg"
             class="ml-2 w-4"
@@ -62,20 +61,20 @@
     </div>
 
     <!-- Interact -->
-    <div class="flex gap-2">
+    <div class="flex gap-4 my-12">
       <div>
-        <img src="../assets/Images/Interact.png" alt="Interact Icon" />
+        <div class="background w-14 h-14 rounded-full flex items-center justify-center">
+          <img class="w-5" src="../assets/Images/Interact.png" alt="Interact Icon" />
+        </div>
       </div>
       <div>
         <h1 class="font-bold text-25">Interact</h1>
         <p class="mt-2 font-medium text-16 leading-7 tracking-wide">
-          Meet and interact with passionate people who are trying to find their
-          feet and with the “big boys” in the tech space
+          Meet and interact with passionate people who are trying to find their feet and
+          with the “big boys” in the tech space
         </p>
-        <div class="flex mt-2.5">
-          <a href="#" class="font-normal text-20 text-purple underline"
-            >RSVP Now</a
-          >
+        <div class="flex mt-4">
+          <a href="#" class="font-normal text-20 text-purple underline">RSVP Now</a>
           <img
             src="../assets/Images/arrow-link-purple.svg"
             class="ml-2 w-4"
@@ -88,11 +87,11 @@
 </template>
 
 <style>
-.bg {
+.background {
   background: rgba(246, 239, 236, 1);
 }
 
 .round-circle {
-  border-radius: 70%;
+  border-radius: 50%;
 }
 </style>
