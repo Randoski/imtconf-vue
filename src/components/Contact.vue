@@ -26,6 +26,7 @@
         <p></p>
 
         <!-- How would you like to assist us? -->
+        <!-- How would you like to assist us? -->
         <div class="relative">
           <select
             class="border border-blue bg-white w-full mb-2.5 py-2 px-3 outline-none appearance-none"
@@ -43,11 +44,13 @@
           <div
             class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"
           >
-            <img
-              class="h-4"
-              src="../assets/Images/arrow-link-blue.svg"
-              alt="Link image"
-            />
+            <svg
+              class="h-4 w-4 fill-current text-blue-500"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M10 12l-6-6h12z" />
+            </svg>
           </div>
         </div>
         <p></p>

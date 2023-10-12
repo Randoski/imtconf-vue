@@ -27,7 +27,7 @@
 
         <!-- Second logo -->
         <div class="hidden">
-          <img src="../assets/Images/Logo2.svg" alt="Second logo" />
+          <img src="../assets/Images/Logo2.svg" alt="Second logo" class="animate-spin" />
         </div>
       </div>
 
@@ -64,7 +64,11 @@
         </p>
 
         <!-- Second logo -->
-        <img src="../assets/Images/Logo2.svg" alt="Second logo" class="mt-10 mb-8" />
+        <img
+          src="../assets/Images/Logo2.svg"
+          alt="Second logo"
+          class="mt-10 mb-8 animate-spin"
+        />
 
         <!-- Socials logo -->
         <div>
@@ -121,3 +125,18 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 20s linear infinite;
+}
+</style>
