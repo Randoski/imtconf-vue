@@ -1,10 +1,12 @@
 <template>
-  <div class="w-full px-4 mt-10">
-    <div class="text-center font-pry font-bold flex flex-col gap-8">
-      <h3 class="font-base text-purple leading-19 tracking-wider uppercase">
+  <div class="w-full px-4 md:px-12 mt-10">
+    <div class="text-center font-pry font-bold flex flex-col gap-8 md:mb-24">
+      <h3
+        class="font-base text-purple leading-19 tracking-wider uppercase md:text-20 lg:text-24"
+      >
         What is IMTCONF?
       </h3>
-      <p class="text-2xl leading-2 tracking-wider w-50">
+      <p class="text-2xl leading-2 tracking-wider w-50 md:text-24 lg:text-40">
         We are a community of Influencers and Tech Personalities.
       </p>
     </div>
@@ -16,7 +18,7 @@
       <!-- We are ... -->
       <div class="font-pry text-center py-12 md:w-1/2">
         <p
-          class="font-bold text-base uppercase leading-6 tracking-widest mb-16"
+          class="font-bold text-base uppercase leading-6 tracking-widest mb-16 md:text-16 lg:text-20"
           :class="currentColorClass"
         >
           Human-centered Community

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <Hero />
     <Conf />
     <Speakers />
@@ -24,4 +24,3 @@ export default {
   components: { Hero, Conf, Speakers, Organizers, Sponsors, Tickets, Footer },
 };
 </script>
-,

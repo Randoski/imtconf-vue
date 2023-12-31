@@ -13,7 +13,7 @@
       </div>
     </router-link>
 
-    <section class="flex">
+    <section class="md:flex">
       <!-- Text -->
       <div class="mt-16 mb-4">
         <h1 class="font-bold text-32 pb-4">
