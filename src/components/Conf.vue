@@ -1,86 +1,63 @@
 <template>
-  <div class="w-full px-4 md:px-12 mt-10">
+  <div class="w-full px-4 mt-10 md:px-12 lg:px-32 xl:px-48">
     <div class="text-center font-pry font-bold flex flex-col gap-8 md:mb-24">
-      <h3
-        class="font-base text-purple leading-19 tracking-wider uppercase md:text-20 lg:text-24"
-      >
+      <h3 class="font-base text-purple leading-19 tracking-wider uppercase md:text-20 lg:text-24">
         What is IMTCONF?
       </h3>
-      <p class="text-2xl leading-2 tracking-wider w-50 md:text-24 lg:text-40">
+      <p class="text-2xl leading-2 tracking-wider w-50 md:text-32 lg:text-40">
         We are a community of Influencers and Tech Personalities.
       </p>
     </div>
 
-    <div
-      class="pt-4 mt-12 border-2 md:flex md:pt-0"
-      :style="{ borderColor: currentBgColorClass }"
-    >
+    <div class="pt-4 mt-12 border-2 md:flex md:pt-0 " :style="{ borderColor: currentBgColorClass }">
       <!-- We are ... -->
-      <div class="font-pry text-center py-12 md:w-1/2">
-        <p
-          class="font-bold text-base uppercase leading-6 tracking-widest mb-16 md:text-16 lg:text-20"
-          :class="currentColorClass"
-        >
+      <div class="font-pry text-center py-12 md:w-1/2 md:py-20">
+        <p class="font-bold text-base uppercase leading-6 tracking-widest mb-16 md:text-16 lg:text-20"
+          :class="currentColorClass">
           Human-centered Community
         </p>
-        <h2 class="font-normal text-forty leading-6 pt-5 pb-4">We are</h2>
-        <h2 class="font-bold text-forty leading-6 underline" :class="currentColorClass">
+        <h2 class="font-normal text-forty leading-6 pt-7 pb-4 md:text-72">We are</h2>
+        <h2 class="font-bold text-forty leading-6 underline md:mt-8 md:text-72 md:mb-20" :class="currentColorClass">
           {{ currentTitle }}
         </h2>
       </div>
 
-      <div
-        class="py-4 mt-12 md:w-1/2 md:mt-0"
-        :style="{ backgroundColor: currentBgColorClass }"
-      >
-        <p class="font-sec font-bold text-xl leading-9 px-4 text-white">
+      <div class="py-4 mt-12 md:w-1/2 md:mt-0 md:px-8" :style="{ backgroundColor: currentBgColorClass }">
+        <p class="font-sec font-bold text-xl leading-9 px-4 text-white md:mt-12 text-20 md:font-sec md:font-semibold">
           A community of Influencers and Tech Personalities forging a stage where the
           continent’s brightest minds meet new partners, and the sharpest innovators to
           share their visions.
         </p>
 
         <!-- Logo and Icons -->
-        <div class="flex justify-between px-4 mt-16">
-          <img src="../assets/Images/Logo3.svg" alt="Logo" />
+        <div class="flex justify-between px-4 mt-16 md:mt-48">
+          <a href="/" class="md:w-16">
+            <img src="../assets/Images/Logo3.svg" alt="Logo" />
+          </a>
+
           <!-- Social media Icons -->
           <div class="flex items-center gap-4">
             <div class="w-4 h4 pt-1">
               <a href="#">
-                <img
-                  class="w-full h-full object-contain"
-                  src="../assets/Images/Instagram2.svg"
-                  alt="icon"
-                />
+                <img class="w-full h-full object-contain" src="../assets/Images/Instagram2.svg" alt="icon" />
               </a>
             </div>
 
-            <div class="w-4 h-4">
+            <div class="w-4 h-4 ">
               <a href="#">
-                <img
-                  class="w-full h-full object-contain"
-                  src="../assets/Images/LinkedIn2.svg"
-                  alt="icon"
-                />
+                <img class="w-full h-full object-contain" src="../assets/Images/LinkedIn2.svg" alt="icon" />
               </a>
             </div>
 
             <div class="w-4 h-4 pt-1">
               <a href="#">
-                <img
-                  class="w-full h-full object-contain"
-                  src="../assets/Images/twitter2.svg"
-                  alt="icon"
-                />
+                <img class="w-full h-full object-contain" src="../assets/Images/twitter2.svg" alt="icon" />
               </a>
             </div>
 
             <div class="w-4 h-4 pt-1">
               <a href="#">
-                <img
-                  class="w-full h-full object-contain"
-                  src="../assets/Images/mail2.svg"
-                  alt="icon"
-                />
+                <img class="w-full h-full object-contain" src="../assets/Images/mail2.svg" alt="icon" />
               </a>
             </div>
           </div>

@@ -1,20 +1,21 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen bg-purple">
     <div>
-      <h1
-        class="font-pry font-bold text-white text-2xl lg:text-6xl lg:font-bold lg:tracking-wider"
-      >
+
+      <!-- Loading Text -->
+      <h1 class="font-pry font-bold text-white text-2xl lg:text-32 lg:font-bold lg:tracking-wider">
         Influencers Meet Tech <br />
-        is <span class="text-pink opacity-10">back.</span>
+        is <span class="text-pink">back.</span>
       </h1>
+
+      <!-- Loading Bar -->
       <div class="loading-container relative mt-6">
         <div class="loading-bar" :style="{ width: `${progress * 100}%` }"></div>
-        <p
-          class="loading-text font-sec font-semibold lg:font-semibold lg:text-2xl"
-        >
+        <p class="loading-text font-sec font-semibold lg:font-semibold lg:text-2xl">
           Loading {{ progress.toFixed(2) }}
         </p>
       </div>
+      
     </div>
   </div>
 </template>
@@ -47,7 +48,7 @@ export default {
 .loading-container {
   min-width: 32px;
   width: 70vw;
-  height: 52px; 
+  height: 52px;
   max-width: 40rem;
   position: relative;
   background-color: rgba(255, 255, 255, 0.1);
@@ -55,10 +56,10 @@ export default {
 
 .loading-bar {
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
   transform: translateY(0);
-  height: 100%; 
+  height: 100%;
   background-color: white;
   animation: loading-animation 8s linear forwards;
   z-index: 1;
@@ -94,6 +95,7 @@ export default {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }

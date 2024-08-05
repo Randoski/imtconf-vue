@@ -1,5 +1,6 @@
 <template>
-  <div class="my-16 px-4 md:px-12 md:flex">
+  <div class="my-16 px-4 md:flex md:px-12 lg:px-32 xl:px-48">
+    
     <!-- IMT -->
     <section class="pt-8 px-5 pb-5 imt">
       <div class="rounded-full w-20 h-20 flex justify-center items-center imt-img">
@@ -13,13 +14,12 @@
       </p>
 
       <!-- Slack link -->
-      <div class="mt-6 flex gap-1">
-        <a href="#" class="font-pry font-normal text-16 text-purple underline"
-          >Join Our Slack</a
-        >
+      <div class="mt-6 flex gap-1.5">
+        <a href="#" class="font-pry font-normal text-16 text-purple underline">Join Our Slack</a>
         <img src="../assets/Images/arrow-link-purple.svg" alt="Link image" class="w-3" />
       </div>
     </section>
+
 
     <!-- KND -->
     <section class="pt-8 px-5 pb-5 knd">
@@ -35,14 +35,14 @@
       </p>
 
       <!-- Discord link -->
-      <div class="mt-6 flex gap-1">
-        <a href="#" class="font-pry font-normal text-16 text-purple underline"
-          >Join Our Discord</a
-        >
+      <div class="mt-6 flex gap-1.5">
+        <a href="#" class="font-pry font-normal text-16 text-purple underline">Join Our Discord</a>
         <img src="../assets/Images/arrow-link-purple.svg" alt="Link image" class="w-3" />
       </div>
     </section>
 
+
+    <!-- OSDC -->
     <section class="pt-8 px-5 pb-5 osdc">
       <div class="rounded-full w-20 h-20 flex justify-center items-center imt-img">
         <img src="../assets/Images/OSDC-community-logo.png" alt="OSDC logo" class="w-8" />
@@ -55,10 +55,8 @@
       </p>
 
       <!-- Discord link -->
-      <div class="mt-6 flex gap-1">
-        <a href="#" class="font-pry font-normal text-16 text-purple underline"
-          >Join Our Discord</a
-        >
+      <div class="mt-6 flex gap-1.5">
+        <a href="#" class="font-pry font-normal text-16 text-purple underline">Join Our Discord</a>
         <img src="../assets/Images/arrow-link-purple.svg" alt="Link image" class="w-3" />
       </div>
     </section>

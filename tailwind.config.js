@@ -24,16 +24,17 @@ module.exports = {
       '14': '14px',
       '16': '16px',
       '20': '20px',
-      '30': '30px',
       '24': '24px',
       '25': '25px',
       '28': '28px',
+      '30': '30px',
       '32': '32px',
       '42': '42px',
       '48': '48px',
       '60': '60px',
-      '400': '400px',
+      '72': '72px',
       '300': '300px',
+      '400': '400px',
       '500': '500px',
     },
 
@@ -43,6 +44,7 @@ module.exports = {
         purple: 'rgb(125, 0, 235)',
         white: 'rgb(255, 255, 255)',
         pink: 'rgb(253, 194, 255)',
+        pastelPurple: '#FDC2FF',
         softBrown: 'rgb(246, 239, 236)',
         deepBrown: 'rgb(191, 130, 96)',
         blue: 'rgb(38, 122, 150)',
@@ -59,14 +61,10 @@ module.exports = {
         grey4: 'rgb(217, 217, 217)',
         grey5: 'rgb(141, 141, 141)',
 
-
-
         // Pastel
-        pastelPurple: '#F6EDFE',
         pastelBlue: 'rgb(234, 240, 242)',
       },
     },
   },
   plugins: [],
 }
-

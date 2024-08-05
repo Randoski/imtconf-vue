@@ -1,20 +1,16 @@
 TODO: 
-1. Work around hero image issue for desktop (and maybe mobile)
-2. Change color of Loading text in Loading.vue to purple and then white when loading
-3. Follow this guide to increase image / hero image quality ( - Use TinyPNG to reduce the file size without sacrificing quality - Use appropriate file format(JPEG for photographs
+Work on Hero section:  Follow this guide to increase image / hero image quality ( - Use TinyPNG to reduce the file size without sacrificing quality - Use appropriate file format(JPEG for photographs
 and PNG for graphics or illustrations) -Use lazy loading  to load the hero image only when the user scrolls to the section containing the image - Use a content delivery 
 network (CDN): A CDN can distribute the load of delivering the image across multiple servers, improving the speed at which it loads.- Use caching to store the
 image in the user's browser so it doesn't have to be reloaded every time the user visits the page.
-4. Nav links should change color on click or scroll
-5. Add more breakpoints to make more responsive
-6. Make hamburger change on click
-7. Fix font issues (Not loading on live)
-8. Write logic to switch organizers image and text every 5 seconds
-9. Make the form active and send alert on submit
-10. Add opacity to pastelBlue in Organizers.vue
-11. Make sure all links are routing properly
-12. Responsiveness for smaller screens
-13. Close mobile menu after clicking on each link
-14. Fix footer navbar links
-15. Add hover effect to footer navbar links
-16. Improve scroll behavior of Qualities.vue
+
+
+
+- Router (colors..) and sections, linking
+- Responsiveness
+- The scrolling should work properly, when a page is visited, it should take you to the top, unless the link is for a section in that page then it should go to
+appropriate section
+- Complete readme.md
+- Loading for Organizers
+- Add proper links to all routers
+- Organizers is not showing on MD

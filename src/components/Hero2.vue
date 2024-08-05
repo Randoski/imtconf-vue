@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 pt-8 w-full">
+  <div class="px-5 pt-8 w-full md:px-12 lg:px-32 xl:px-48 md:pt-16">
     <img
       class="pt-16 w-full md:hidden object-cover object-center"
       src="../assets/Images/Hero-Section-2-mobile.svg"
